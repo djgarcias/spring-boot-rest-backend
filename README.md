@@ -7,3 +7,10 @@ Also as part of stack it uses:
   <li>Spring Security</li>
 </ul>
 </p>
+
+<h2>Heroku</h2>
+Latest build ob master branch will be abailable always on heroku as restbackend
+
+As start point you can try it at: https://restbackend.herokuapp.com/rest/public/hello
+
+
