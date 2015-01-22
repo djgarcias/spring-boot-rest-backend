@@ -18,11 +18,10 @@ public class ApiAuthenticationFailureHandler implements AuthenticationFailureHan
 			HttpServletResponse arg1, AuthenticationException arg2)
 			throws IOException, ServletException {
 		
-		System.out.println("username :" +arg0.getParameter("username"));
 		
 		arg1.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
 		ServletOutputStream out = arg1.getOutputStream();
-		out.println("erroraco");
+		out.println("Authentication error");
 		out.close();
 	}
 
