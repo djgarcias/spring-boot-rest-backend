@@ -42,6 +42,8 @@
 
    
 	<build>
+		<!-- Do not change witout modify Procfile target name  -->
+		<finalName>restbackend</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
